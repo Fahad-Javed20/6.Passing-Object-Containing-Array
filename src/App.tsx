@@ -11,7 +11,7 @@ function App() {
   empName:"Fahad Bin Javed",
   empJobTitle: "Software Engineer",
   empSalary:50000000000,
-  hobbies: ["Coding","Meditation","Badminton"],
+  hobbies: ["Coding","Meditation","Badminton","exercising","Gardining"],
 };
 
   return (

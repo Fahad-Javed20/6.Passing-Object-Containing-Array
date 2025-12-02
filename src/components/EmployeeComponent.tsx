@@ -12,9 +12,12 @@ const EmployeeComponent = ({employee}:EmployeeComponentProps) => {
       <h1>{employee.empName}</h1>
       <h1>{employee.empJobTitle}</h1>
       <p>{employee.empSalary}</p>
+      <div className="flex gap-3 flex-wrap justify-around">
+
       {employee.hobbies.map((hobby)=>(
-        <p key={employee.empId}>{hobby}</p>
+        <p  key={employee.empId}>{hobby}</p>
       ))}
+      </div>
     </div>
   )
 }
